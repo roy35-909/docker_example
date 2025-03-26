@@ -21,5 +21,5 @@ This project demonstrates how to containerize a Python application using Docker.
 
 4. Stop and remove the container
    ```sh
-    docker stop myapp
-    docker rm myapp
+    docker stop <container_id>
+    docker rm <container_id>
